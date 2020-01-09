@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?= $title; ?></title>
+
+    <?= $head ;?>
 
     <link rel="stylesheet" href="<?= url("/theme/style.css"); ?>"/>
 </head>
@@ -26,7 +27,7 @@ endif;?>
 </main>
 
 <footer class="main_footer">
-<?= SITE, " ", date('Y') ;?> - Todos os Direitos Reservados
+<?= SITE_NAME, " ", date('Y') ;?> - Todos os Direitos Reservados
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

@@ -2,7 +2,7 @@
 
 define("URL_BASE", "https://localhost");
 
-define("SITE", "ImperioSoft Studios");
+define("SITE_NAME", "ImperioSoft Studios");
 
 define("DATA_LAYER_CONFIG", [
     "driver" => "mysql",
@@ -26,8 +26,8 @@ define("DATA_LAYER_CONFIG", [
 function url(string $uri = null): string
 {
     if ($uri) {
-        return ROOT . "/{$uri}";
+        return URL_BASE . "/{$uri}";
     }
 
-    return ROOT;
+    return URL_BASE;
 }
