@@ -18,4 +18,4 @@
         $("button").after('<button type="reset">Limpar</button>');
     })
 </script>
-<?php $v->end("scripts") ;?>
+<?php $v->end() ;?>

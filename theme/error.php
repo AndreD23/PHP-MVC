@@ -5,4 +5,4 @@
 
 <?php $v->start("sidebar"); ?>
 <a href="<?= url("") ;?>" title="Voltar ao início">Voltar</a>
-<?php $v->end("sidebar"); ?>
+<?php $v->end(); ?>
